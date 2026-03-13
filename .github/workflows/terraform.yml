@@ -36,7 +36,7 @@ jobs:
       - name: Terraform Validate
         run: terraform validate
 
-## run terraform init and plan, needs validation so waiting for gcp key, when I do add it I need to remove previous backend=false
+## run terraform init and plan, needs validation so waiting for gcp key (dont have to touch other jobs)
 
     ##plan:
     ##runs-on: ubuntu-latest
